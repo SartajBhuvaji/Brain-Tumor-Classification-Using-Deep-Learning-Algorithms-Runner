@@ -25,7 +25,7 @@ for layer in model1.layers:
     layer.trainable = False
     
 model1.add(Dense(4,activation = 'softmax'))
-model1.load_weights("model/model.h5")
+model1.load_weights("model/modelPlaceHolder.h5")
 
 def allowed_file(filename):
     return '.' in filename and \
