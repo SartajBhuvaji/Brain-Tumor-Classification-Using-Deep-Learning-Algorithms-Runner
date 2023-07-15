@@ -27,10 +27,6 @@ jobs:
     - name: Upgrade Pip
       run: |
         pip install --upgrade pip 
-    
-    - name: Install numpy
-      run: |    
-        pip install numpy==1.17.4
             
     - name: Install requirements
       run: |    
