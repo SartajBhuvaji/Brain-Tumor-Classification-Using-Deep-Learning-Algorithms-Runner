@@ -1,4 +1,14 @@
 ## Instructions to run Flask Application.
+
+Create a new Python env
+```
+python -m venv venv        
+```
+Activate the new env
+```
+venv\Scripts\activate
+```
+Install requirements
 ```
 pip install -r requirements.txt
 ```
